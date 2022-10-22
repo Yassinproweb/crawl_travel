@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f0f1ff;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #000f04;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #06e03c;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+h6 {
+    font-family: 'Allura';
+}
+
+p, a, li, button, ::placeholder, input, small {
+    font-family: 'PT Sans', sans-serif;
+}
+
+button {
+    transition: all .2s;
+}
+
+/* Navbar Styling */
+.change {
+    background-color: hsl(135, 95%, 7%);
+    box-shadow: 0 0 5px #000;
+}
+
+/* Hero Section */
+#home {
+    height: 100vh;
+}
+
+.home {
+    filter: contrast(65%) brightness(65%) grayscale(1);
+}
+
+.explore {
+    box-shadow: 0 2px 7px hsl(135, 95%, 7%, .75);
+}
+
+.explore:hover {
+    letter-spacing: 1px;
+    background-color: #06e03c;
+}
+
+/* About Us Section */
+#shuffle {
+    position: absolute;
+    border: 7px solid #f0f1ff;
+    object-fit: fill;
+    z-index: 5;
+    border-radius: 300px;
+}
+
+#shuffler {
+    z-index: 3;
+    border: 7px solid #f0f1ff;
+    border-radius: 300px;
+}
+
+#shuffled {
+    position: absolute;
+    z-index: 7;
+    border: 7px solid #f0f1ff;
+    border-radius: 300px;
+}
+
+/* Tours Section */
+.div_grad {
+    background-image: linear-gradient(180deg, hsl(135, 95%, 7%, 0.25), hsl(135, 95%, 7%));
+}
+
+.discover {
+    border: 1px solid #06e03c;
+}
+
+.discover:is(:hover, :focus) {
+    /* border-color: #f0f1ff; */
+    background-color: #06e03c;
+    color: #000f04;
+}
+
+#next {
+    box-shadow: 1px 2px 5px #01230977;
+    cursor: pointer;
+    animation: move 1.5s infinite ease;
+}
+
+#next:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-5px);
+        background-color: #06e03c;
+    }
+
+    75% {
+        background-color: #06e03c;
+        opacity: .2;
+    }
+
+    100% {
+        transform: translateX(79px);
+        opacity: .1;
+        scale: 1.25;
+        background-color: #012309;
+    }
+}
+
+/* Image Zoom */
+.image_tour:hover {
+    scale: 1.2;
+}
+
+/* Scrollbar for Scroller Div */
+
+#scroller::-webkit-scrollbar-button {
+    width: calc(25% - 25px);
+    background-color: #012309;
+}
+
+#scroller::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 11px;
+    outline: 2px solid #012309;
+}
+
+#scroller::-webkit-scrollbar-thumb {
+    background-color: #012309;
+    border: 2px solid #f0f1ff;
+}
+
+#scroller::-webkit-scrollbar {
+    background-color: transparent;
+    margin-top: 17px;
+    height: 7px;
+}
+
+#scroller::-webkit-scrollbar-button {
+    background-color: transparent;
+}
+
+/* Join Section */
+#join {
+    background-image: url('/cloud_noon.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+input {
+    outline: 1px solid #012309;
+}
+
+/* Footer Part */
+.bottom_line {
+    border-bottom: 1px solid #06e03c55;
+}
+
+.socials {
+    box-shadow: 0 1px 5px #0009;
+}
+
+.socials:hover {
+    box-shadow: 0 0px 5px #000c;
+    background-color: #06e03c;
+}
