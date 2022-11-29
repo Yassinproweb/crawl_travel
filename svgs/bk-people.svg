@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="people-outline.svg"
+   inkscape:version="1.2 (1:1.2+202205211824+da316b6974)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.96156419"
+     inkscape:cx="149.23601"
+     inkscape:cy="367.63016"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <title
+     id="title2">ionicons-v5-j</title>
+  <path
+     d="M402,168c-2.93,40.67-33.1,72-66,72s-63.12-31.32-66-72c-3-42.31,26.37-72,66-72S405,126.46,402,168Z"
+     style="fill:none;stroke:#03cf95;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px;stroke-opacity:1"
+     id="path4" />
+  <path
+     style="color:#000000;fill:#03cf95;stroke-miterlimit:10;stroke:#03cf95;stroke-opacity:0;fill-opacity:1"
+     d="m 336,288 c -70.46668,0 -141.26014,36.05949 -159.06445,107.53906 -2.1017,8.427 -0.64352,17.25275 4.17382,24.3125 C 185.92672,426.91131 194.76051,432 204.17969,432 h 263.65039 c 9.41918,0 18.25966,-5.10344 23.0664,-12.16016 4.80488,-7.05397 6.25527,-15.83846 4.19336,-24.23828 l -0.002,-0.004 C 477.32977,323.16128 406.3106,288 336,288 Z m 0,32 c 58.8528,0 112.10156,26.5433 127.04687,80 H 208.98242 C 223.93848,347.57631 277.36277,320 336,320 Z"
+     id="path6" />
+  <path
+     d="M200,185.94C197.66,218.42,173.28,244,147,244S96.3,218.43,94,185.94C91.61,152.15,115.34,128,147,128S202.39,152.77,200,185.94Z"
+     style="fill:none;stroke:#03cf95;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px;stroke-opacity:1"
+     id="path8" />
+  <path
+     d="M206,306c-18.05-8.27-37.93-11.45-59-11.45-52,0-102.1,25.85-114.65,76.2C30.7,377.41,34.88,384,41.72,384H154"
+     style="fill:none;stroke:#03cf95;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px;stroke-opacity:1"
+     id="path10" />
+</svg>
